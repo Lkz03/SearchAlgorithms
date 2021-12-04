@@ -6,6 +6,8 @@
   var testClass = new Algorithm(test);
   var output = new OutputManager();
 
+  //test the constructor array
+  testClass.DisplayArray();
 
   output.SearchOutput(test, testClass.SearchAndReturnIndex("bye"));
  }
