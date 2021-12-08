@@ -1,6 +1,6 @@
 ﻿public class OutputManager
 {
- public void SearchOutput(string[] searchedString, int searchedIndex)
+ public void SearchOutput(int[] searchedString, int searchedIndex)
  {
   if (searchedIndex == -1)
   {

@@ -2,13 +2,13 @@
 {
  public static void Main()
  {
-  string[] test = new string[] { "hello", "asdasdasdwdw", "asdasdasdas", "gfhtrfhrthtrh", "dfgregergreg", "hjtjtyjytj", "bye", "dfgdfgdfgdf" };
+  int[] test = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
   var testClass = new Algorithm(test);
   var output = new OutputManager();
 
   //test the constructor array
   testClass.DisplayArray();
 
-  output.SearchOutput(test, testClass.SearchAndReturnIndex("bye"));
+  output.SearchOutput(test, testClass.SearchAndReturnIndex(5));
  }
 }

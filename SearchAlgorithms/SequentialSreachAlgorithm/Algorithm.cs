@@ -1,21 +1,21 @@
 ﻿public class Algorithm
 {
- private string[] _stringArray;
+ private int[] _stringArray;
 
- public Algorithm(string[] parStringArray)
+ public Algorithm(int[] parStringArray)
  {
   _stringArray = parStringArray;
  }
 
  public void DisplayArray()
  {
-  foreach (string str in _stringArray)
+  foreach (int str in _stringArray)
   {
    Console.WriteLine(str);
   }
  }
 
- public int SearchAndReturnIndex(string lookFor)
+ public int SearchAndReturnIndex(int lookFor)
  {
   for (int i = 0; i < _stringArray.Length; i++)
    if (_stringArray[i] == lookFor)
