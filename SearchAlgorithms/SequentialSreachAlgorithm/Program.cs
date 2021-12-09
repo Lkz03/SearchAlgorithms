@@ -7,7 +7,7 @@
   var output = new OutputManager();
 
   //test the constructor array
-  testClass.DisplayArray();
+  //testClass.DisplayArray();
 
   output.SearchOutput(test, testClass.SearchAndReturnIndex(5));
  }
