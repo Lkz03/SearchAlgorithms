@@ -2,13 +2,13 @@
 {
  public static void Main()
  {
-  int[] test = new int[] { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610 };
+  int[] test = new int[] { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 };
   var testClass = new Algorithm(test);
   var output = new OutputManager();
 
   //test the constructor array
-  testClass.DisplayArray();
+  //testClass.DisplayArray();
 
-  output.SearchOutput(test, testClass.SearchAndReturnIndex(55));
+  output.SearchOutput(test, testClass.SearchAndReturnIndex(655555));
  }
 }
